@@ -4,16 +4,16 @@ public class TestMaximum {
 
 	public static void main(String[] args) {
 		
-		Integer integer1=-10, integer2=-3, integer3=-1, maximum;
-		maximum = integer1;
+		Float number1=10f, number2=-3f, number3=-1f, maximum;
+		maximum = number1;
 		
-		if(integer2.compareTo(maximum) > 0)
-			maximum=integer2;
+		if(number2.compareTo(maximum) > 0)
+			maximum=number2;
 		
-		if(integer3.compareTo(maximum) > 0)
-			maximum=integer3;
+		if(number3.compareTo(maximum) > 0)
+			maximum=number3;
 		
-		System.out.println("Maximum of "+integer1+", "+integer2+" & "+integer3+" is: "+maximum);
+		System.out.println("Maximum of "+number1+", "+number2+" & "+number3+" is: "+maximum);
 		
 	}
 
